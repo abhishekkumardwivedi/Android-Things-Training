@@ -78,7 +78,7 @@ Now after WiFi configuration success you can get IP address over WiFi and discon
 
 ### Process Analysis
 Process after boot complete
-[adb ps](adb_ps_log.md) shows running process snapshot in Things preview version v1.
+[adb ps](adb_ps_log.txt) shows running process snapshot in Things preview version v1.
 ```
 init -> logd
 init -> debuggerd
@@ -124,7 +124,7 @@ zygote -> com.google.process.gapps
 ```
 ### Services Analysis
 
-[service list](service_list_log.md) shows list of services running in preview version v1 after boot complete.
+[service list](service_list_log.txt) shows list of services running in preview version v1 after boot complete.
 
 ## Things Application
 
