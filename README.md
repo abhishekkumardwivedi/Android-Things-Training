@@ -1,3 +1,3 @@
 # android-things-training
 
-## * Booting Android Things
+## * [Booting Android Things](BootingAndroidThings.md)
