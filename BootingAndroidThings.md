@@ -124,7 +124,7 @@ zygote -> com.android.providers.calendar
 zygote -> com.google.process.gapps
 ```
 
-When you are checking the logs then you should also have a look at below lines and at your free time, dig into the concept. 
+You should also have a look at below process snapshot and dig into the concept. 
 ```
 
 USER      PID   PPID  VSIZE  RSS   WCHAN            PC  NAME
