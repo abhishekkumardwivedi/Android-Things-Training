@@ -123,6 +123,22 @@ zygote -> com.android.onetimeinitializer
 zygote -> com.android.providers.calendar
 zygote -> com.google.process.gapps
 ```
+
+When you are checking the logs then you should also have a look at below lines and at your free time, dig into the concept. 
+```
+
+USER      PID   PPID  VSIZE  RSS   WCHAN            PC  NAME
+root      1     0     7336   1552           0 00000000 S /init
+root      2     0     0      0              0 00000000 S kthreadd
+...
+...
+root      102   2     0      0              0 00000000 S binder
+...
+root      117   1     2932   1132           0 00000000 S /sbin/ueventd
+...
+root      152   1     965944 95168          0 00000000 S zygote
+```
+
 ### Services Analysis
 
 [service list](service_list_log.txt) shows list of services running in preview version v1 after boot complete.
