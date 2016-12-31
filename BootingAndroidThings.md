@@ -79,6 +79,7 @@ Now after WiFi configuration success you can get IP address over WiFi and discon
 ### Process Analysis
 Process after boot complete
 [adb ps](adb_ps_log.txt) shows running process snapshot in Things preview version v1.
+
 ```
 init -> logd
 init -> debuggerd
@@ -88,7 +89,7 @@ init -> healthd
 init -> lmkd
 init -> servicemanager
 init -> surfaceflinger
-init -> init -> adbd
+init -> adbd
 init -> zygote
 init -> audioserver
 init -> cameraserver
@@ -109,7 +110,7 @@ init -> perfprofd
 init -> update_engine
 init -> mdnsd
 init -> system_server
-vold ->sdcard
+vold -> sdcard
 init -> wpa_supplicant
 zygote -> com.android.settings
 zygote -> android.ext.services
