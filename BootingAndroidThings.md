@@ -1,6 +1,8 @@
 # Booting Android Things
 This session is based on Things preview version v1.
 Android Things is brand name on launch of IoT framework while it was branded as Brillo on pre-launch in 2015.
+It is much meaningful as Brillo was supposed to be C++ based at app layer were as Android Things still hold
+the same affinity of Android. It is actually fully qualified Android but made for IoT.
 
 ## Architecture
 
